@@ -360,25 +360,25 @@ int menu(){
     printf(" =============================\n");
     printf("  TRABAJO PRACTICO - MATRICES\n");
     printf(" =============================\n");
-    printf(" 1.HACER UNA FUNCI”N QUE RECIBA COMO PAR¡METRO UNA MATRIZ DE N⁄MEROS ENTEROS Y PERMITA QUE EL USUARIO INGRESE VALORES AL MISMO POR TECLADO. LA FUNCI”N DEBE CARGAR LA MATRIZ POR COMPLETO. \n");
-    printf(" 2.HACER UNA FUNCI”N QUE RECIBA COMO PAR¡METRO UNA MATRIZ DE N⁄MEROS ENTEROS Y LA MUESTRE POR PANTALLA (EN FORMATO MATRICIAL). \n");
-    printf(" 3.HACER UNA FUNCI”N QUE RECIBA COMO PAR¡METRO UNA MATRIZ DE N⁄MEROS ENTEROS Y QUE CARGUE LA MISMA CON N⁄MEROS ALEATORIOS (SIN INTERVENCI”N DEL USUARIO). LA FUNCI”N DEBE CARGAR LA MATRIZ POR COMPLETO. \n");
-    printf(" 4.HACER UNA FUNCI”N TIPO INT QUE SUME EL CONTENIDO TOTAL DE UNA MATRIZ DE N⁄MEROS ENTEROS. \n");
-    printf(" 5.HACER UNA FUNCI”N TIPO FLOAT QUE CALCULE EL PROMEDIO DE UNA MATRIZ DE N⁄MEROS ENTEROS. \n");
-    printf(" 6.HACER UNA FUNCI”N QUE DETERMINE SI UN ELEMENTO SE ENCUENTRA DENTRO DE UNA MATRIZ DE N⁄MEROS ENTEROS. LA FUNCI”N RECIBE LA MATRIZ Y EL DATO A BUSCAR. \n");
-    printf(" 7.HACER UNA FUNCI”N QUE CARGUE UN ARREGLO DE PALABRAS (STRINGS). LA FUNCI”N DEBE RETORNAR CUANTAS PALABRAS SE CARGARON. \n");
-    printf(" 8.HACER UNA FUNCI”N QUE MUESTRE UN ARREGLO DE PALABRAS. \n");
-    printf(" 9.HACER UNA FUNCI”N QUE DETERMINE SI UNA PALABRA SE ENCUENTRA DENTRO DE UN ARREGLO DE PALABRAS. LA FUNCI”N RECIBE EL ARREGLO, LA CANTIDAD DE PALABRAS QUE CONTIENE Y LA PALABRA A BUSCAR. \n");
-    printf(" 10.HACER UNA FUNCI”N (O VARIAS) QUE ORDENE UN ARREGLO DE PALABRAS POR ORDEN ALFAB…TICO. (POR SELECCI”N O INSERCI”N, EL QUE M¡S TE GUSTE).\n");
-    printf(" 11.HACER UNA FUNCI”N QUE RETORNE EL DETERMINANTE DE UNA MATRIZ DE 2X2. n");
-    printf(" 12.FUNCI”N QUE VERIFIQUE SI UNA MATRIZ DE 2X2 TIENE INVERSA. \n");
-    printf(" 13.HACER UNA FUNCI”N QUE MULTIPLIQUE UNA MATRIZ DE 2X2 POR UNA MATRIZ DE 2X5. \n");
-    printf(" 14.HACER UNA FUNCI”N QUE CALCULE LA MATRIZ INVERSA DE UNA MATRIZ DE 2X2. \n");
-    printf(" 15.LOS RESULTADOS DE LAS ⁄LTIMAS ELECCIONES A INTENDENTE EN EL PUEBLO ìLA MATRIXî HAN SIDO LOS SIGUIENTES: \n");
+    printf(" 1.HACER UNA FUNCI√ìN QUE RECIBA COMO PAR√ÅMETRO UNA MATRIZ DE N√öMEROS ENTEROS Y PERMITA QUE EL USUARIO INGRESE VALORES AL MISMO POR TECLADO. LA FUNCI√ìN DEBE CARGAR LA MATRIZ POR COMPLETO. \n");
+    printf(" 2.HACER UNA FUNCI√ìN QUE RECIBA COMO PAR√ÅMETRO UNA MATRIZ DE N√öMEROS ENTEROS Y LA MUESTRE POR PANTALLA (EN FORMATO MATRICIAL). \n");
+    printf(" 3.HACER UNA FUNCI√ìN QUE RECIBA COMO PAR√ÅMETRO UNA MATRIZ DE N√öMEROS ENTEROS Y QUE CARGUE LA MISMA CON N√öMEROS ALEATORIOS (SIN INTERVENCI√ìN DEL USUARIO). LA FUNCI√ìN DEBE CARGAR LA MATRIZ POR COMPLETO. \n");
+    printf(" 4.HACER UNA FUNCI√ìN TIPO INT QUE SUME EL CONTENIDO TOTAL DE UNA MATRIZ DE N√öMEROS ENTEROS. \n");
+    printf(" 5.HACER UNA FUNCI√ìN TIPO FLOAT QUE CALCULE EL PROMEDIO DE UNA MATRIZ DE N√öMEROS ENTEROS. \n");
+    printf(" 6.HACER UNA FUNCI√ìN QUE DETERMINE SI UN ELEMENTO SE ENCUENTRA DENTRO DE UNA MATRIZ DE N√öMEROS ENTEROS. LA FUNCI√ìN RECIBE LA MATRIZ Y EL DATO A BUSCAR. \n");
+    printf(" 7.HACER UNA FUNCI√ìN QUE CARGUE UN ARREGLO DE PALABRAS (STRINGS). LA FUNCI√ìN DEBE RETORNAR CUANTAS PALABRAS SE CARGARON. \n");
+    printf(" 8.HACER UNA FUNCI√ìN QUE MUESTRE UN ARREGLO DE PALABRAS. \n");
+    printf(" 9.HACER UNA FUNCI√ìN QUE DETERMINE SI UNA PALABRA SE ENCUENTRA DENTRO DE UN ARREGLO DE PALABRAS. LA FUNCI√ìN RECIBE EL ARREGLO, LA CANTIDAD DE PALABRAS QUE CONTIENE Y LA PALABRA A BUSCAR. \n");
+    printf(" 10.HACER UNA FUNCI√ìN (O VARIAS) QUE ORDENE UN ARREGLO DE PALABRAS POR ORDEN ALFAB√âTICO. (POR SELECCI√ìN O INSERCI√ìN, EL QUE M√ÅS TE GUSTE).\n");
+    printf(" 11.HACER UNA FUNCI√ìN QUE RETORNE EL DETERMINANTE DE UNA MATRIZ DE 2X2. n");
+    printf(" 12.FUNCI√ìN QUE VERIFIQUE SI UNA MATRIZ DE 2X2 TIENE INVERSA. \n");
+    printf(" 13.HACER UNA FUNCI√ìN QUE MULTIPLIQUE UNA MATRIZ DE 2X2 POR UNA MATRIZ DE 2X5. \n");
+    printf(" 14.HACER UNA FUNCI√ìN QUE CALCULE LA MATRIZ INVERSA DE UNA MATRIZ DE 2X2. \n");
+    printf(" 15.LOS RESULTADOS DE LAS √öLTIMAS ELECCIONES A INTENDENTE EN EL PUEBLO ¬ìLA MATRIX¬î HAN SIDO LOS SIGUIENTES: \n");
     printf(" A.IMPRIMIR LA TABLA ANTERIOR CON CABECERAS INCLUIDAS\n");
-    printf(" B.CALCULAR E IMPRIMIR EL N⁄MERO TOTAL DE VOTOS RECIBIDOS POR CADA CANDIDATO Y EL PORCENTAJE TOTAL DE VOTOS EMITIDOS. ASÕ MISMO, VISUALIZAR EL CANDIDATO M¡S VOTADO.\n");
-    printf(" C.SI ALG⁄N CANDIDATO RECIBE M¡S DEL 50% DE LOS VOTOS, EL PROGRAMA IMPRIMIR¡ UN MENSAJE DECLAR¡NDOSE GANADOR.\n");
-    printf(" D.SI ALG⁄N CANDIDATO RECIBE MENOS DEL 50% DE LOS VOTOS, EL PROGRAMA DEBE IMPRIMIR EL NOMBRE DE LOS DOS CANDIDATOS M¡S VOTADOS QUE SER¡N LOS QUE PASEN A LA SEGUNDA RONDA DE LAS ELECCIONES. \n");
+    printf(" B.CALCULAR E IMPRIMIR EL N√öMERO TOTAL DE VOTOS RECIBIDOS POR CADA CANDIDATO Y EL PORCENTAJE TOTAL DE VOTOS EMITIDOS. AS√ç MISMO, VISUALIZAR EL CANDIDATO M√ÅS VOTADO.\n");
+    printf(" C.SI ALG√öN CANDIDATO RECIBE M√ÅS DEL 50% DE LOS VOTOS, EL PROGRAMA IMPRIMIR√Å UN MENSAJE DECLAR√ÅNDOSE GANADOR.\n");
+    printf(" D.SI ALG√öN CANDIDATO RECIBE MENOS DEL 50% DE LOS VOTOS, EL PROGRAMA DEBE IMPRIMIR EL NOMBRE DE LOS DOS CANDIDATOS M√ÅS VOTADOS QUE SER√ÅN LOS QUE PASEN A LA SEGUNDA RONDA DE LAS ELECCIONES. \n");
     printf(" 0 - SALIR DEL PARCIAL\n");
     printf("\n ELIJA UNA OPCION: ");
     fflush(stdin);
@@ -398,7 +398,7 @@ void funcionMenu(){
         system("cls");
         switch(option){
         case 1:{
-            printf(" 1.HACER UNA FUNCI”N QUE RECIBA COMO PAR¡METRO UNA MATRIZ DE N⁄MEROS ENTEROS Y PERMITA QUE EL USUARIO INGRESE VALORES AL MISMO POR TECLADO. LA FUNCI”N DEBE CARGAR LA MATRIZ POR COMPLETO. \n\n");
+            printf(" 1.HACER UNA FUNCI√ìN QUE RECIBA COMO PAR√ÅMETRO UNA MATRIZ DE N√öMEROS ENTEROS Y PERMITA QUE EL USUARIO INGRESE VALORES AL MISMO POR TECLADO. LA FUNCI√ìN DEBE CARGAR LA MATRIZ POR COMPLETO. \n\n");
             cargarMatrizInt(matrizMain,x,y);
             printf("\n");
             system("pause");
@@ -406,14 +406,14 @@ void funcionMenu(){
         }
         break;
         case 2:{
-            printf(" 2.HACER UNA FUNCI”N QUE RECIBA COMO PAR¡METRO UNA MATRIZ DE N⁄MEROS ENTEROS Y LA MUESTRE POR PANTALLA (EN FORMATO MATRICIAL). \n");
+            printf(" 2.HACER UNA FUNCI√ìN QUE RECIBA COMO PAR√ÅMETRO UNA MATRIZ DE N√öMEROS ENTEROS Y LA MUESTRE POR PANTALLA (EN FORMATO MATRICIAL). \n");
             mostrarMatriz(matrizMain,x,y);
             system("pause");
             system("cls");
         }
         break;
         case 3:{
-            printf(" 3.HACER UNA FUNCI”N QUE RECIBA COMO PAR¡METRO UNA MATRIZ DE N⁄MEROS ENTEROS Y QUE CARGUE LA MISMA CON N⁄MEROS ALEATORIOS (SIN INTERVENCI”N DEL USUARIO). LA FUNCI”N DEBE CARGAR LA MATRIZ POR COMPLETO. \n");
+            printf(" 3.HACER UNA FUNCI√ìN QUE RECIBA COMO PAR√ÅMETRO UNA MATRIZ DE N√öMEROS ENTEROS Y QUE CARGUE LA MISMA CON N√öMEROS ALEATORIOS (SIN INTERVENCI√ìN DEL USUARIO). LA FUNCI√ìN DEBE CARGAR LA MATRIZ POR COMPLETO. \n");
             cargarMatrizRandom(matrizMain,x,y);
             mostrarMatriz(matrizMain,x,y);
             system("pause");
@@ -421,49 +421,49 @@ void funcionMenu(){
         }
         break;
         case 4:{
-            printf(" 4.HACER UNA FUNCI”N TIPO INT QUE SUME EL CONTENIDO TOTAL DE UNA MATRIZ DE N⁄MEROS ENTEROS. \n");
+            printf(" 4.HACER UNA FUNCI√ìN TIPO INT QUE SUME EL CONTENIDO TOTAL DE UNA MATRIZ DE N√öMEROS ENTEROS. \n");
             printf("\n LA SUMA DE LOS ELEMENTOS DE LA MATRIZ DA: %d\n\n", sumarMatriz(matrizMain,x,y));
             system("pause");
             system("cls");
         }
         break;
         case 5:{
-            printf(" 5.HACER UNA FUNCI”N TIPO FLOAT QUE CALCULE EL PROMEDIO DE UNA MATRIZ DE N⁄MEROS ENTEROS. \n");
+            printf(" 5.HACER UNA FUNCI√ìN TIPO FLOAT QUE CALCULE EL PROMEDIO DE UNA MATRIZ DE N√öMEROS ENTEROS. \n");
             printf("\n EL PROMEDIO DE LA MATRIZ ES DE: %.2f\n\n",promedioMatriz(matrizMain,x,y));
             system("pause");
             system("cls");
         }
         break;
         case 6:{
-            printf(" 6.HACER UNA FUNCI”N QUE DETERMINE SI UN ELEMENTO SE ENCUENTRA DENTRO DE UNA MATRIZ DE N⁄MEROS ENTEROS. LA FUNCI”N RECIBE LA MATRIZ Y EL DATO A BUSCAR. \n");
+            printf(" 6.HACER UNA FUNCI√ìN QUE DETERMINE SI UN ELEMENTO SE ENCUENTRA DENTRO DE UNA MATRIZ DE N√öMEROS ENTEROS. LA FUNCI√ìN RECIBE LA MATRIZ Y EL DATO A BUSCAR. \n");
             encontrarElemento(matrizMain,x,y);
             system("pause");
             system("cls");
         }
         break;
         case 7:{
-            printf(" 7.HACER UNA FUNCI”N QUE CARGUE UN ARREGLO DE PALABRAS (STRINGS). LA FUNCI”N DEBE RETORNAR CUANTAS PALABRAS SE CARGARON. \n");
+            printf(" 7.HACER UNA FUNCI√ìN QUE CARGUE UN ARREGLO DE PALABRAS (STRINGS). LA FUNCI√ìN DEBE RETORNAR CUANTAS PALABRAS SE CARGARON. \n");
             valChar=cargarMatrizChar(arregloString,x,y);
             system("pause");
             system("cls");
         }
         break;
         case 8:{
-            printf(" 8.HACER UNA FUNCI”N QUE MUESTRE UN ARREGLO DE PALABRAS. \n");
+            printf(" 8.HACER UNA FUNCI√ìN QUE MUESTRE UN ARREGLO DE PALABRAS. \n");
             mostrarArregloChar(arregloString,valChar);
             system("pause");
             system("cls");
         }
         break;
         case 9:{
-            printf(" 9.HACER UNA FUNCI”N QUE DETERMINE SI UNA PALABRA SE ENCUENTRA DENTRO DE UN ARREGLO DE PALABRAS. LA FUNCI”N RECIBE EL ARREGLO, LA CANTIDAD DE PALABRAS QUE CONTIENE Y LA PALABRA A BUSCAR. \n\n");
+            printf(" 9.HACER UNA FUNCI√ìN QUE DETERMINE SI UNA PALABRA SE ENCUENTRA DENTRO DE UN ARREGLO DE PALABRAS. LA FUNCI√ìN RECIBE EL ARREGLO, LA CANTIDAD DE PALABRAS QUE CONTIENE Y LA PALABRA A BUSCAR. \n\n");
             buscarPalabra(arregloString,valChar);
             system("pause");
             system("cls");
         }
         break;
         case 10:{
-            printf("10.HACER UNA FUNCI”N (O VARIAS) QUE ORDENE UN ARREGLO DE PALABRAS POR ORDEN ALFAB…TICO. (POR SELECCI”N O INSERCI”N, EL QUE M¡S TE GUSTE).\n");
+            printf("10.HACER UNA FUNCI√ìN (O VARIAS) QUE ORDENE UN ARREGLO DE PALABRAS POR ORDEN ALFAB√âTICO. (POR SELECCI√ìN O INSERCI√ìN, EL QUE M√ÅS TE GUSTE).\n");
             ordenarPalabras(arregloString, valChar);
             mostrarArregloChar(arregloString,valChar);
             system("pause");
@@ -471,7 +471,7 @@ void funcionMenu(){
         }
         break;
         case 11:{
-            printf("11.HACER UNA FUNCI”N QUE RETORNE EL DETERMINANTE DE UNA MATRIZ DE 2X2.\n");
+            printf("11.HACER UNA FUNCI√ìN QUE RETORNE EL DETERMINANTE DE UNA MATRIZ DE 2X2.\n");
             cargarMatrizOrdenDos(matrizMain,2,2);
             mostrarMatrizOrdenDos(matrizMain,2,2);
             determinanteDeOrdenDos(matrizMain);
@@ -481,14 +481,14 @@ void funcionMenu(){
         }
         break;
         case 12:{
-            printf("12.FUNCI”N QUE VERIFIQUE SI UNA MATRIZ DE 2X2 TIENE INVERSA. \n");
+            printf("12.FUNCI√ìN QUE VERIFIQUE SI UNA MATRIZ DE 2X2 TIENE INVERSA. \n");
             inversa(matrizMain);
             system("pause");
             system("cls");
         }
         break;
         case 13:{
-            printf("13.HACER UNA FUNCI”N QUE MULTIPLIQUE UNA MATRIZ DE 2X2 POR UNA MATRIZ DE 2X5. \n");
+            printf("13.HACER UNA FUNCI√ìN QUE MULTIPLIQUE UNA MATRIZ DE 2X2 POR UNA MATRIZ DE 2X5. \n");
             int matrizDos[2][2];
             int matrizCinco[2][5];
             cargarMatrizOrdenDos(matrizDos,2,2);
@@ -501,14 +501,14 @@ void funcionMenu(){
         }
         break;
         case 14:{
-            printf("14.HACER UNA FUNCI”N QUE CALCULE LA MATRIZ INVERSA DE UNA MATRIZ DE 2X2. \n");
+            printf("14.HACER UNA FUNCI√ìN QUE CALCULE LA MATRIZ INVERSA DE UNA MATRIZ DE 2X2. \n");
             sacarInversa(matrizMain);
             system("pause");
             system("cls");
         }
         break;
         case 15:{
-            printf("15.LOS RESULTADOS DE LAS ⁄LTIMAS ELECCIONES A INTENDENTE EN EL PUEBLO ìLA MATRIXî HAN SIDO LOS SIGUIENTES: \n");
+            printf("15.LOS RESULTADOS DE LAS √öLTIMAS ELECCIONES A INTENDENTE EN EL PUEBLO ¬ìLA MATRIX¬î HAN SIDO LOS SIGUIENTES: \n");
             printf("\n ELECCIONES EN LA MATRIX\n");
             printf(" -----------------------------------------------------------------------------\n");
             printf("  DISTRITO       CANDIDATO A     CANDIDATO B     CANDIDATO C     CANDIDATO D\n");
@@ -542,70 +542,3 @@ void funcionMenu(){
     printf("\n FIN DEL PARCIAL\n\n");
     system("pause");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-//    int x=3;
-//    int y=3;
-//    int matrizMain[x][y];
-//    cargarMatrizInt(matrizMain,x,y);
-//    mostrarMatriz(matrizMain,x,y);
-//    cargarMatrizRandom(matrizMain,x,y);
-//    mostrarMatriz(matrizMain,x,y);
-//    sumarMatriz(matrizMain,x,y);
-//    printf(" LA SUMA DE LOS ELEMENTOS DE LA MATRIZ DA: %d\n\n", sumarMatriz(matrizMain,x,y));
-//    promedioMatriz(matrizMain,x,y);
-//    printf(" EL PROMEDIO DE LA MATRIZ ES DE: %.2f\n\n",promedioMatriz(matrizMain,x,y));
-//    encontrarElemento(matrizMain,x,y);
-//    int valChar=0;
-//    char arregloString[valChar][20];
-//    valChar=cargarMatrizChar(arregloString,x,y);
-//    mostrarArregloChar(arregloString,valChar);
-//    buscarPalabra(arregloString,valChar);
-//    ordenarPalabras(arregloString, valChar);
-//    mostrarArregloChar(arregloString,valChar);
-//    cargarMatrizOrdenDos(matrizMain,2,2);
-//    mostrarMatrizOrdenDos(matrizMain,2,2);
-//    determinanteDeOrdenDos(matrizMain);
-//    printf(" EL DETERMINANTE DE LA MATRIZ ES %d\n", determinanteDeOrdenDos(matrizMain));
-//    inversa(matrizMain);
-//    int x=0;
-//    int y=0;
-//    int matrizDos[2][2];
-//    int matrizCinco[2][5];
-//    int matrizResultado[2][5];
-//    int m = 0;
-//    int n = 0;
-//    int p = 0;
-//    cargarMatrizOrdenDos(matrizDos,2,2);
-//    mostrarMatrizOrdenDos(matrizDos,2,2);
-//    cargarMatrizDosCinco(matrizCinco,2,5);
-//    mostrarDosCinco(matrizCinco,2,5);
-//    multiplicacionDeMatrices(matrizDos,matrizCinco,matrizResultado,m,n,p);
-//    sacarInversa(matrizMain);
-    //system("pause");
-    //system("cls");
-//    printf(" ELECCIONES EN LA MATRIX\n");
-//    printf(" -----------------------------------------------------------------------------\n");
-//    printf("  DISTRITO       CANDIDATO A     CANDIDATO B     CANDIDATO C     CANDIDATO D\n");
-//    printf(" -----------------------------------------------------------------------------\n");
-//    printf("     1               194             48              206             45\n");
-//    printf(" -----------------------------------------------------------------------------\n");
-//    printf("     2               180             20              320             16\n");
-//    printf(" -----------------------------------------------------------------------------\n");
-//    printf("     3               221             90              140             20\n");
-//    printf(" -----------------------------------------------------------------------------\n");
-//    printf("     4               432             51              821             14\n");
-//    printf(" -----------------------------------------------------------------------------\n");
-//    printf("     5               820             61              946             18\n");
-//    totalPorcentajes();
