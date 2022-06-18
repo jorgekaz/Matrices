@@ -23,7 +23,7 @@ int inversa(int matriz[2][2]);
 int multiplicacionMatrices(int matrizOrdenDos[2][2], int matrizDosXCinco[2][5]);
 int cargarMatrizDosCinco(int matrizDosXCinco[2][5], int x, int y);
 void mostrarDosCinco(int matriz[2][5], int x, int y);
-void multiplicacionDeMatrices(int a[2][2], int b[2][5], int c[2][5], int m, int n, int p);
+void multiplicacionDeMatrices(int a[2][2], int b[2][5]);
 void sacarInversa(int matriz[2][2]);
 void totalPorcentajes();
 int menu();
@@ -242,26 +242,22 @@ void mostrarDosCinco(int matriz[2][5], int x, int y){
     }
     printf("\n");
 }
-void multiplicacionDeMatrices(int a[2][2], int b[2][5], int c[2][5], int m, int n, int p){
-    int i;
-    int j;
-    int k;
-    for(i;i<m;i++){
-        for(k;k<p;k++){
-            c[i][k]=0;
-        }
-    }
-    for(i;i<m;i++){
-        for(j;j<n;j++){
-            for(k;k<p;k++){
-                c[i][k]= c[i][k] + a[i][j]*b[j][k];
-            }
-        }
-    }
-    printf(" LA MATRIZ RESULTANTE ES\n");
+void multiplicacionDeMatrices(int a[2][2], int b[2][5]){
+    int c[2][5];
+    c[0][0] = (a[0][0]*b[0][0])+(a[0][1]*b[1][0]);
+    c[0][1] = (a[0][0]*b[0][1])+(a[0][1]*b[1][1]);
+    c[0][2] = (a[0][0]*b[0][2])+(a[0][1]*b[1][2]);
+    c[0][3] = (a[0][0]*b[0][3])+(a[0][1]*b[1][3]);
+    c[0][4] = (a[0][0]*b[0][4])+(a[0][1]*b[1][4]);
 
-    printf("\n EN PROCESO - ENCONTRANDO SOLUCION\n");
-    mostrarDosCinco(c[2][5],i,k);
+    c[1][0] = (a[1][0]*b[0][0])+(a[1][1]*b[1][0]);
+    c[1][1] = (a[1][0]*b[0][1])+(a[1][1]*b[1][1]);
+    c[1][2] = (a[1][0]*b[0][2])+(a[1][1]*b[1][2]);
+    c[1][3] = (a[1][0]*b[0][3])+(a[1][1]*b[1][3]);
+    c[1][4] = (a[1][0]*b[0][4])+(a[1][1]*b[1][4]);
+
+    printf("\n LA MATRIZ RESULTANTE ES\n");
+    mostrarDosCinco(c,2,5);
 }
 
 /// 14
@@ -495,16 +491,11 @@ void funcionMenu(){
             printf("13.HACER UNA FUNCIÓN QUE MULTIPLIQUE UNA MATRIZ DE 2X2 POR UNA MATRIZ DE 2X5. \n");
             int matrizDos[2][2];
             int matrizCinco[2][5];
-            int matrizResultado[2][5];
-            int m = 0;
-            int n = 0;
-            int p = 0;
             cargarMatrizOrdenDos(matrizDos,2,2);
             mostrarMatrizOrdenDos(matrizDos,2,2);
             cargarMatrizDosCinco(matrizCinco,2,5);
             mostrarDosCinco(matrizCinco,2,5);
-            multiplicacionDeMatrices(matrizDos,matrizCinco,matrizResultado,m,n,p);
-            mostrarMatrizOrdenDos(matrizResultado,2,5);
+            multiplicacionDeMatrices(matrizDos,matrizCinco);
             system("pause");
             system("cls");
         }
@@ -552,3 +543,69 @@ void funcionMenu(){
     system("pause");
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+//    int x=3;
+//    int y=3;
+//    int matrizMain[x][y];
+//    cargarMatrizInt(matrizMain,x,y);
+//    mostrarMatriz(matrizMain,x,y);
+//    cargarMatrizRandom(matrizMain,x,y);
+//    mostrarMatriz(matrizMain,x,y);
+//    sumarMatriz(matrizMain,x,y);
+//    printf(" LA SUMA DE LOS ELEMENTOS DE LA MATRIZ DA: %d\n\n", sumarMatriz(matrizMain,x,y));
+//    promedioMatriz(matrizMain,x,y);
+//    printf(" EL PROMEDIO DE LA MATRIZ ES DE: %.2f\n\n",promedioMatriz(matrizMain,x,y));
+//    encontrarElemento(matrizMain,x,y);
+//    int valChar=0;
+//    char arregloString[valChar][20];
+//    valChar=cargarMatrizChar(arregloString,x,y);
+//    mostrarArregloChar(arregloString,valChar);
+//    buscarPalabra(arregloString,valChar);
+//    ordenarPalabras(arregloString, valChar);
+//    mostrarArregloChar(arregloString,valChar);
+//    cargarMatrizOrdenDos(matrizMain,2,2);
+//    mostrarMatrizOrdenDos(matrizMain,2,2);
+//    determinanteDeOrdenDos(matrizMain);
+//    printf(" EL DETERMINANTE DE LA MATRIZ ES %d\n", determinanteDeOrdenDos(matrizMain));
+//    inversa(matrizMain);
+//    int x=0;
+//    int y=0;
+//    int matrizDos[2][2];
+//    int matrizCinco[2][5];
+//    int matrizResultado[2][5];
+//    int m = 0;
+//    int n = 0;
+//    int p = 0;
+//    cargarMatrizOrdenDos(matrizDos,2,2);
+//    mostrarMatrizOrdenDos(matrizDos,2,2);
+//    cargarMatrizDosCinco(matrizCinco,2,5);
+//    mostrarDosCinco(matrizCinco,2,5);
+//    multiplicacionDeMatrices(matrizDos,matrizCinco,matrizResultado,m,n,p);
+//    sacarInversa(matrizMain);
+    //system("pause");
+    //system("cls");
+//    printf(" ELECCIONES EN LA MATRIX\n");
+//    printf(" -----------------------------------------------------------------------------\n");
+//    printf("  DISTRITO       CANDIDATO A     CANDIDATO B     CANDIDATO C     CANDIDATO D\n");
+//    printf(" -----------------------------------------------------------------------------\n");
+//    printf("     1               194             48              206             45\n");
+//    printf(" -----------------------------------------------------------------------------\n");
+//    printf("     2               180             20              320             16\n");
+//    printf(" -----------------------------------------------------------------------------\n");
+//    printf("     3               221             90              140             20\n");
+//    printf(" -----------------------------------------------------------------------------\n");
+//    printf("     4               432             51              821             14\n");
+//    printf(" -----------------------------------------------------------------------------\n");
+//    printf("     5               820             61              946             18\n");
+//    totalPorcentajes();
